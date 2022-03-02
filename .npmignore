@@ -1,0 +1,11 @@
+# npm
+node_modules
+
+# source files
+src/
+.eslintrc.json
+.gitignore
+.npmignore
+.prettierrc.json
+jest.config.json
+tsconfig.json
