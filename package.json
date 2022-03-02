@@ -1,12 +1,14 @@
 {
   "name": "@edegiil/utils",
   "version": "0.1.0",
+  "private": false,
   "description": "own utils",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "jest",
-    "build": "tsc"
+    "build": "tsc",
+    "deploy": "npm publish --access=public"
   },
   "repository": {
     "type": "git",
