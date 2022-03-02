@@ -22,9 +22,6 @@
     "url": "https://github.com/edegiil/utils/issues"
   },
   "homepage": "https://github.com/edegiil/utils#readme",
-  "publishConfig": {
-    "@edegiil:registry": "https://npm.pkg.github.com"
-  },
   "dependencies": {},
   "devDependencies": {
     "@types/jest": "^27.4.1",
