@@ -1,4 +1,4 @@
-import generateError from '../../utils/generate-error';
+import generateError from '../utils/generate-error';
 
 /**
  * check time whether today or not

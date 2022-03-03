@@ -16,7 +16,7 @@ $ yarn add @edegiil/utils
 
 ### javascript
 
-- [date](./docs/javascript/date.md) : date and time utilities
+- [time](./docs/time.md) : date and time utilities
 
 ### React Hooks
 

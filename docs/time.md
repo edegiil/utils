@@ -1,20 +1,20 @@
-# Date
+# Time
 
 ## `check-today`
 
 check time whether today or not
 
-### Usage
+### usage
 
 ```js
-import { checkToday } from '@edegiil/utils/javascript/date';
+import { time } from '@edegiil/utils';
 
-const time = new Date();
+const time_obj = new Date();
 
-const isToday = checkToday(time);
+const isToday = time.checkToday(time_obj);
 ```
 
-### Types
+### types
 
 ```ts
 function checkToday(time: Date | string | number): boolean;
@@ -34,16 +34,16 @@ format date
 - minutes : `mm` (ex. 27, 07), `h` (ex. 27, 7)
 - seconds : `ss` (ex. 36, 03), `s` (ex. 36, 3)
 
-### Usage
+### usage
 
 ```js
-import { formatDate } from '@edegiil/utils/javascript/date';
+import { time } from '@edegiil/utils';
 
-const time = new Date();
-const timeString = formatDate(time, 'YYYY MM DD A hh:mm:ss');
+const time_obj = new Date();
+const timeString = time.formatDate(time_obj, 'YYYY MM DD A hh:mm:ss');
 ```
 
-### Types
+### types
 
 ```ts
 function formatDate(time: Date, format: string): string;

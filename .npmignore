@@ -2,7 +2,7 @@
 node_modules
 
 # source files
-src/
+lib/
 .eslintrc.json
 .gitignore
 .npmignore
